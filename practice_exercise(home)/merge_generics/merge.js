@@ -12,3 +12,7 @@ console.log(getter, mergeArrays(numberArrays1, numberArrays2));
 var stringArrays1 = ["Steven", "Andrei", "James"];
 var stringArrays2 = ["Vacation", "Study", "Code"];
 console.log(getter, mergeArrays(stringArrays1, stringArrays2));
+//Let's try, boolean type.
+var booleanArrays1 = [true, true, true];
+var booleanArrays2 = [false, false, false];
+console.log(getter, mergeArrays(booleanArrays1, booleanArrays2));
